@@ -1,0 +1,24 @@
+{
+    "name": "module-2-workflow-husky",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "npx prettier --write .",
+        "check-format": "npx prettier --check ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Michaelwasilewski/module-2-workflow-husky.git"
+    },
+    "author": "Michael Wasilewski",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Michaelwasilewski/module-2-workflow-husky/issues"
+    },
+    "homepage": "https://github.com/Michaelwasilewski/module-2-workflow-husky#readme",
+    "devDependencies": {
+        "prettier": "^2.7.1"
+    }
+}
