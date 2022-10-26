@@ -6,7 +6,9 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "format": "npx prettier --write .",
-        "check-format": "npx prettier --check ."
+        "check-format": "npx prettier --check .",
+        "lint": "eslint .",
+        "lint-fix": "eslint . --fix"
     },
     "repository": {
         "type": "git",
@@ -19,6 +21,9 @@
     },
     "homepage": "https://github.com/Michaelwasilewski/module-2-workflow-husky#readme",
     "devDependencies": {
+        "eslint": "^8.26.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.26.0",
         "husky": "^2.7.0",
         "prettier": "^2.7.1",
         "pretty-quick": "^3.1.3"
