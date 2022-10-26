@@ -19,7 +19,7 @@
     },
     "homepage": "https://github.com/Michaelwasilewski/module-2-workflow-husky#readme",
     "devDependencies": {
-        "husky": "^7.0.4",
+        "husky": "^4.3.8",
         "prettier": "^2.7.1",
         "pretty-quick": "^3.1.3"
     },
